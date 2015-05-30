@@ -1,0 +1,14 @@
+<secion class="login">
+	
+	<form name="myform" ng-submit="login(user)" novalidate>
+		
+		<h1>Login Here</h1>
+		<input type="email" ng-model="user.email" name="email" placeholder="Email Addres" autofocus ng-required="true">
+		<p class="error validationerror" ng-show="myform.email.$invalid && myform.email.$touched">Must be a valid email</p>
+		<input type="password" ng-model="user.password" name="password" placeholder="password" ng-required="true">
+		<p class="error validationerror" ng-show="myform.password.$invalid && myform.password.$touched">Please enter a password</p>
+		<button type="submit" class="btn" ng-disabled="myform.$invalid">Login</button>
+		<p>or <a href="#/register">Register</a></p>
+	</form>
+
+</secion>

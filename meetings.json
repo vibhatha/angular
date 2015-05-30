@@ -1,0 +1,20 @@
+{
+  "meetings": {
+    "-JWT5y43YFy1mGirVVS2": {
+      "date": 1410328158691,
+      "name": "Tech Deland Oct 2014"
+    },
+    "-JWT65QvjwD4TSFjDx4V": {
+      "date": 1410328192928,
+      "name": "Collide Halifax 2014"
+    },
+    "-JWk3R8ejXlaOVBr7hxd": {
+      "date": 1410629485228,
+      "name": "Web Unleashed 2014 AngularJS"
+    },
+    "-JX0jlHRCfiI6DiDnySn": {
+      "date": 1410926056676,
+      "name": "Web Unleashed 2014 Sass"
+    }
+  }
+}
